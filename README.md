@@ -13,10 +13,10 @@ The first thing you have to do is make the first set of measurements for the cal
 1. Run the following command to download files for this lab into your folder:
 
 ```bash
-git clone https://github.com/ENEE467/Lab_6.git
+git clone https://github.com/ENEE467/lab6.git
 ```
 
-2. Navigate to `Lab_6/src` directory using the `cd` command.
+2. Navigate to `lab6/src` directory using the `cd` command.
 
 
 3. Launch Visual Studio Code (VSC):
@@ -52,7 +52,7 @@ source ~/catkin_ws/devel/setup.bash
 tmux new-session \; \split-window -v \; \split-window -h \; \select-pane -t 1 \; \split-window -h
 ```
 
-8. Copy the calibrated kinematics configuration file from the `Desktop/ENEE467 IMPORTANT` folder to the `Lab_6/src/ur3e_setup/config` folder.
+8. Copy the calibrated kinematics configuration file from the `Desktop/ENEE467 IMPORTANT` folder to the `lab6/src/ur3e_setup/config` folder.
 
 9. Start up the real ur3e robot using the tablet and run the following commands in order in different terminals:
 
